@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Language" xml:space="preserve">
+    <value>tr-TR</value>
+  </data>
+  <data name="Translator:Name" xml:space="preserve">
+    <value>Sosyale Ozdemir</value>
+  </data>
+  <data name="Translator:Company" xml:space="preserve">
+    <value>Programmiererei Nicol GmbH, www.programmiererei.de</value>
+  </data>
+  <data name="Btn:Edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="Btn:Add" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="Btn:Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Txt:EditRecord" xml:space="preserve">
+    <value>Kayıt düzenle</value>
+  </data>
+  <data name="Txt:ViewRecord" xml:space="preserve">
+    <value>Kayıt göster</value>
+  </data>
+  <data name="Btn:New" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="Btn:Export" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="Btn:Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Btn:OK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="Btn:Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="Btn:Go" xml:space="preserve">
+    <value>Yürüt</value>
+  </data>
+  <data name="Btn:SearchGoButtonText" xml:space="preserve">
+    <value>Yürüt</value>
+  </data>
+  <data name="Btn:Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Btn:Reset" xml:space="preserve">
+    <value>Reset filters</value>
+  </data>
+  <data name="Btn:Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Btn:ExportExcel" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="Btn:PDF" xml:space="preserve">
+    <value>PDF Report</value>
+  </data>
+  <data name="Btn:FirstPage" xml:space="preserve">
+    <value>First page</value>
+  </data>
+  <data name="Btn:PreviousPage" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="Btn:NextPage" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="Btn:LastPage" xml:space="preserve">
+    <value>Last page</value>
+  </data>
+  <data name="Btn:SaveNNew" xml:space="preserve">
+    <value>Save and New</value>
+  </data>
+  <data name="Txt:DeleteRecord" xml:space="preserve">
+    <value>Delete Record</value>
+  </data>
+  <data name="DeleteRecordConfirm" xml:space="preserve">
+    <value>Are you sure you want to delete this record?</value>
+  </data>
+  <data name="Txt:SearchFor" xml:space="preserve">
+    <value>Arama</value>
+  </data>
+  <data name="Txt:PageTotal" xml:space="preserve">
+    <value>Sayfa başına toplam:</value>
+  </data>
+  <data name="Txt:GrandTotal" xml:space="preserve">
+    <value>Genel toplam:</value>
+  </data>
+  <data name="Txt:Page" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="Txt:Of" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="Txt:PageSize" xml:space="preserve">
+    <value>Sayfa başına kayıt</value>
+  </data>
+  <data name="Txt:To" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="Txt:AddDialogTitle" xml:space="preserve">
+    <value>DKayıt eklemek</value>
+  </data>
+  <data name="Txt:EditDialogTitle" xml:space="preserve">
+    <value>Kayıt düzenlemek</value>
+  </data>
+  <data name="Txt:ViewDialogTitle" xml:space="preserve">
+    <value>Kayıt göstermek</value>
+  </data>
+  <data name="Txt:SignIn" xml:space="preserve">
+    <value>Oturum açma</value>
+  </data>
+  <data name="Txt:SignOut" xml:space="preserve">
+    <value>Oturum kapanış</value>
+  </data>
+  <data name="LLS:Text" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="DS:Text" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="Val:ValueIsRequired" xml:space="preserve">
+    <value>{FieldName} için birşey giriniz.</value>
+  </data>
+  <data name="Val:ValueTooLong" xml:space="preserve">
+    <value>{FieldName} çok uzun.</value>
+  </data>
+  <data name="Val:Separator" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="Txt:TotalItems" xml:space="preserve">
+    <value>Toplam:</value>
+  </data>
+  <data name="Err:InvalidLoginInfo" xml:space="preserve">
+    <value>Invalid login information. Please enter a valid user name and password.</value>
+  </data>
+  <data name="Err:InternalErrorLogin" xml:space="preserve">
+    <value>Login failed due to an internal error.</value>
+  </data>
+  <data name="Txt:UserName" xml:space="preserve">
+    <value>User Name:</value>
+  </data>
+  <data name="Txt:Password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="Err:EnterUserName" xml:space="preserve">
+    <value>Please enter your user name.</value>
+  </data>
+  <data name="Err:EnterPassword" xml:space="preserve">
+    <value>Please enter your password.</value>
+  </data>
+  <data name="Txt:SkipNavigation" xml:space="preserve">
+    <value>Skip navigation links</value>
+  </data>
+  <data name="Txt:LoginMsg" xml:space="preserve">
+    <value>Enter your user name and password to sign in.</value>
+  </data>
+  <data name="Txt:LoginMsgSessionInvalid" xml:space="preserve">
+    <value>You have been signed out.&lt;br&gt; Please sign in to continue.</value>
+  </data>
+  <data name="Err:RetrieveRec" xml:space="preserve">
+    <value>The requested record could not be retrieved.</value>
+  </data>
+  <data name="Err:NoRecSelected" xml:space="preserve">
+    <value>Please select a record.</value>
+  </data>
+  <data name="Err:RecDataSrcNotInitialized" xml:space="preserve">
+    <value>The record could not be retrieved.</value>
+  </data>
+  <data name="Err:RecDoesNotExist" xml:space="preserve">
+    <value>The selected record does not exist anymore.</value>
+  </data>
+  <data name="Err:NoParentRecId" xml:space="preserve">
+    <value>The data could not be saved because the parent record ID could not be retrieved.</value>
+  </data>
+  <data name="Err:UrlParamMissing" xml:space="preserve">
+    <value>The URL parameter value is missing for {URL}.</value>
+  </data>
+  <data name="Err:ParentNotInitialized" xml:space="preserve">
+    <value>The data could not be retrieved because the parent record is not initialized.</value>
+  </data>
+  <data name="Err:CannotDelRecs" xml:space="preserve">
+    <value>The selected records could not be deleted.</value>
+  </data>
+  <data name="ValidationSummaryHeaderText" xml:space="preserve">
+    <value>Lütfen aşaĝıdaki hataları düzeltiniz:</value>
+  </data>
+  <data name="Err:NoRecRetrieved" xml:space="preserve">
+    <value>No record was found.</value>
+  </data>
+  <data name="Err:MoreThanOneRecRetrieved" xml:space="preserve">
+    <value>More than one record was found. Only one record was expected.</value>
+  </data>
+  <data name="Txt:All" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="Err:RecChangedByOtherUser" xml:space="preserve">
+    <value>This record has been changed by another user.</value>
+  </data>
+  <data name="Txt:PleaseSelect" xml:space="preserve">
+    <value>** Please Select **</value>
+  </data>
+  <data name="Txt:Other" xml:space="preserve">
+    <value>Diĝer</value>
+  </data>
+  <data name="Btn:Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="DeleteConfirm" xml:space="preserve">
+    <value>Are you sure you want to delete the selected records?</value>
+  </data>
+  <data name="Txt:PrintPage" xml:space="preserve">
+    <value>Print Page</value>
+  </data>
+  <data name="Txt:ExpandCollapse" xml:space="preserve">
+    <value>Expand/Collapse</value>
+  </data>
+  <data name="Txt:CopyRecord" xml:space="preserve">
+    <value>Copy Record</value>
+  </data>
+  <data name="Btn:Word" xml:space="preserve">
+    <value>Microsoft Word Report</value>
+  </data>
+  <data name="Menu:Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Menu:By" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="Menu:Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Menu:Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Menu:ShowSelected" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Menu:WebReport" xml:space="preserve">
+    <value>Web Report</value>
+  </data>
+  <data name="Txt:SetLanguage" xml:space="preserve">
+    <value>Select Language</value>
+  </data>
+  <data name="Txt:Hello" xml:space="preserve">
+    <value>Hello </value>
+  </data>
+  <data name="Txt:Items" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="Txt:RememberUN" xml:space="preserve">
+    <value>Remember User Name</value>
+  </data>
+  <data name="Txt:AutoLogin" xml:space="preserve">
+    <value>Automatically sign in</value>
+  </data>
+  <data name="Txt:RememberPassword" xml:space="preserve">
+    <value>Remember Password</value>
+  </data>
+  <data name="Txt:UserNotSignedIn" xml:space="preserve">
+    <value>You are not signed-in.</value>
+  </data>
+  <data name="Btn:ForgetSignInButton" xml:space="preserve">
+    <value>Forget my sign in information</value>
+  </data>
+  <data name="Txt:ForgetSignInButton" xml:space="preserve">
+    <value>Clear stored user name and password information</value>
+  </data>
+  <data name="Title:WebReport" xml:space="preserve">
+    <value>Web Report</value>
+  </data>
+  <data name="Title:Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Title:Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Title:Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Title:Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Title:SearchAndEdit" xml:space="preserve">
+    <value>Search and Edit</value>
+  </data>
+  <data name="Title:SelectAndEdit" xml:space="preserve">
+    <value>Select and Edit</value>
+  </data>
+  <data name="Title:Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Menu:EditSelected" xml:space="preserve">
+    <value>Select and Edit</value>
+  </data>
+  <data name="Menu:EditSearch" xml:space="preserve">
+    <value>Search and Edit</value>
+  </data>
+  <data name="Menu:ShowSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Btn:Import" xml:space="preserve">
+    <value>Import data</value>
+  </data>
+  <data name="Import:ReadOnly" xml:space="preserve">
+    <value>The {ColumnName} column  is read only and cannot be updated.</value>
+  </data>
+  <data name="Import:Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Import:Title" xml:space="preserve">
+    <value>Select the data file to import.</value>
+  </data>
+  <data name="Import:Column" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="Import:PreviousMsg" xml:space="preserve">
+    <value>You are currently on the first step of the Import Wizard.</value>
+  </data>
+  <data name="Import:Table" xml:space="preserve">
+    <value>table</value>
+  </data>
+  <data name="Import:DuplicateColumn" xml:space="preserve">
+    <value>The {ColumnName} column has already been selected. Please select a unique column name for each data column.</value>
+  </data>
+  <data name="Import:Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Import:SelectFile" xml:space="preserve">
+    <value>Please select a file to import.</value>
+  </data>
+  <data name="Import:PrimaryKey" xml:space="preserve">
+    <value>The {ColumnName} column is a primary key and cannot be updated.</value>
+  </data>
+  <data name="Import:InfoText" xml:space="preserve">
+    <value>Select the file you would like to import.</value>
+  </data>
+  <data name="Import:ColumnNames" xml:space="preserve">
+    <value>Column Names</value>
+  </data>
+  <data name="Import:FirstRowText" xml:space="preserve">
+    <value>My data has a header row.</value>
+  </data>
+  <data name="Import:NextMsg" xml:space="preserve">
+    <value>You are currently on the last step of the Import Wizard.</value>
+  </data>
+  <data name="Import:Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Import:CompositeColumn" xml:space="preserve">
+    <value>The Import Wizard cannot import data into tables with composite foreign keys.</value>
+  </data>
+  <data name="Import:Step1" xml:space="preserve">
+    <value>Import Wizard: Step 1 of 2</value>
+  </data>
+  <data name="Import:Step2" xml:space="preserve">
+    <value>Import Wizard: Step 2 of 2</value>
+  </data>
+  <data name="Import:Success" xml:space="preserve">
+    <value>{Records} records were successfully imported.</value>
+  </data>
+  <data name="Import:ValidFileMsg" xml:space="preserve">
+    <value>The file you selected cannot be imported. Please select an ASCII comma separated value (CSV) file to import.</value>
+  </data>
+  <data name="Import:FileError" xml:space="preserve">
+    <value>This file is in use by another application. Please close the file and try again.</value>
+  </data>
+  <data name="Menu:TableInsideTable">
+    <value>table inside table</value>
+  </data>
+</root>

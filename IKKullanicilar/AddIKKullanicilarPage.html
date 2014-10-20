@@ -1,0 +1,461 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+    <title><GEN:Literal NAME="PageTitle"/></title>
+    <link rel="stylesheet" rev="stylesheet" type="text/css" href="../Styles/BaseStyles.css"/>
+    </head>
+    <body id="Body1" runat="server" class="pBack">
+    <form id="Form1" method="post" runat="server"><BaseClasses:ScrollCoordinates id="ScrollCoordinates" runat="server"></BaseClasses:ScrollCoordinates>
+        <BaseClasses:BasePageSettings id="PageSettings" runat="server"></BaseClasses:BasePageSettings>
+        <GEN:TEMPLATE DESCRIPTION="A page containing a header, menu and footer." TYPE="Page" FILE="Pages/Page with Header and Menu.html"></GEN:TEMPLATE>
+        <table cellspacing="0" cellpadding="0" border="0" height="100%" width="100%">
+        <tr>
+        <td class="pAlign">
+        <table cellspacing="0" cellpadding="0" border="0" class="pbTable">
+            <tr>
+            <td class="pbTL"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbT"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbTR"><img src="../Images/space.gif" alt=""/></td>
+            </tr>
+            <tr>
+            <td class="pbL"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbC">
+            <table cellspacing="0" cellpadding="0" border="0" class="pcTable">
+            <tr>
+                <td class="pcT" colspan="2">
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                <td>
+                </td>
+            </tr>
+            </table>
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+            <td><GEN:HEADER FILE="..\Header and Footer\Header.html" NAME="PageHeader"></GEN:HEADER></td>
+            </tr>
+            </table>
+            </td>
+            <td class="pcTR"></td>
+            </tr>
+            <tr>
+                <td class="pcL">
+                    <GEN:MENU FILE="..\Menu Panels\Menu.html" NAME="MenuV"></GEN:MENU></td>
+                <td class="pcC">
+                <table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+                <tr>
+                <td>
+                    <GEN:MENU FILE="../Menu Panels/HorizontalMenu.html" NAME="Menu"></GEN:MENU></td>
+                </tr>
+                <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                        <td class="pContent">
+                            <a name="StartOfPageContent"></a>
+<GEN:RECORD NAME="IKKullanicilarRecordControl">
+<!-- Begin Record Panel.html -->
+<GEN:TEMPLATE DESCRIPTION="Standard record panel." TYPE="Add One Record" FILE="Data Entry\Add Record - Label on Side.xml"></GEN:TEMPLATE>
+ <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("SaveButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("CancelButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("OKButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("SaveNNewButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("EditButton$_Button")) %>
+
+    <table class="dv" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td class="dh">
+    <table cellpadding="0" cellspacing="0" width="100%" border="0">
+    <tr>
+    <td class="dhel"><img src="../Images/space.gif" alt=""/></td><td class="dhb">
+    <table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td class="dhtr" valign="middle"><GEN:HTML NAME="IKKullanicilarTitle"></GEN:HTML></td>
+    </tr>
+    </table>
+    </td>
+    <td class="dher"><img src="../Images/space.gif" alt=""/></td>
+    </tr>
+    </table>
+    </td>
+    </tr><tr>
+        <td>
+        <table class="dBody" id="CollapsibleRegion" style="display:;" cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+        <td>
+        <table id="FilterRegion" cellpadding="0" cellspacing="3" border="0"></table>
+    <div class="spacer"></div></td>
+    </tr>
+    <tr><td>
+    <table cellpadding="0" cellspacing="3" border="0">
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="AdiLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="Adi"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="SoyadiLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="Soyadi"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="EpostaLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="Eposta"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="GSMLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="GSM"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="FirmaIDLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="FirmaID"></GEN:FIELDVALUE><GEN:IMAGEBUTTON NAME="FirmaIDAddRecordLink" /></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="UnvanIDLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="UnvanID"></GEN:FIELDVALUE><GEN:IMAGEBUTTON NAME="UnvanIDAddRecordLink" /></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="YetkiTurIDLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="YetkiTurID"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="HesapIDLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="HesapID"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="TCKimlikNoLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="TCKimlikNo"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="IsTelefonuLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="IsTelefonu"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="KullaniciAdiLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="KullaniciAdi"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="OlusturmaTarihiLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="OlusturmaTarihi"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="OlusturanIDLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="OlusturanID"></GEN:FIELDVALUE><GEN:IMAGEBUTTON NAME="OlusturanIDAddRecordLink" /></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="DuzenlenmeTarihiLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="DuzenlenmeTarihi"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="DuzenleyenIDLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="DuzenleyenID"></GEN:FIELDVALUE><GEN:IMAGEBUTTON NAME="DuzenleyenIDAddRecordLink" /></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="AktifPasifLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="AktifPasif"></GEN:FIELDVALUE></td>
+            </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+<%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("OKButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("CancelButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("SaveButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("SaveNNewButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("EditButton$_Button")) %>
+ <!-- End Record Panel.html -->
+ </GEN:RECORD>
+    <GEN:TABCONTAINER NAME="IKKullanicilarTabContainer">
+    <GEN:TABPANEL NAME="HaberlerTabPanel">
+    <table>
+    <tr>
+    <td>
+<GEN:TABLE NAME="HaberlerTableControl">
+    <!-- Begin Table Panel.html -->
+<GEN:TEMPLATE DESCRIPTION="Table view to show or edit multiple records." TYPE="Edit Multiple Records" FILE="Data Entry\Add Record - Label on Side.xml"></GEN:TEMPLATE>
+    <table class="dv" cellpadding="0" cellspacing="0" border="0"><tr>
+    <td class="dhtrc">
+        <table id="CollapsibleRegionTotalRecords" style="display:none;" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td class="dhtrct"><GEN:LABEL NAME="HaberlerTotalItems"></GEN:LABEL></td>
+        </tr>
+        </table>
+    </td>
+    </tr><tr>
+        <td class="dBody">
+        <table id="CollapsibleRegion" style="display:;" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td>
+        <table id="FilterRegion" cellpadding="0" cellspacing="3" border="0"></table>
+        <div class="spacer"></div>
+        <!-- Category Area -->
+        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+        <td>
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+            <td>
+            <table cellpadding="0" cellspacing="0" border="0"><tr>
+            <!-- Pagination Area -->
+            <td class="pr" colspan="100">
+            <table id="PaginationRegion" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+            <td><img src="../Images/paginationRowEdgeL.gif" alt=""/></td><GEN:GROUP NAME="HaberlerButtons">
+            <td class="prbbc"><img src="../Images/ButtonBarEdgeL.gif" alt=""/></td><td class="prbbc"><img src="../Images/ButtonBarDividerL.gif" alt=""/></td>
+            <td class="prbbc"><GEN:ImageButton NAME="HaberlerAddButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="HaberlerDeleteButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="HaberlerResetButton" /></td><td class="prbbc"><img src="../Images/ButtonBarDividerR.gif" alt=""/></td><td class="prbbc"><img src="../Images/ButtonBarEdgeR.gif" alt=""/></td>
+            </GEN:GROUP><td class="pra"><GEN:PAGINATION FILE="..\Shared\Pagination.html" NAME="HaberlerPagination"></GEN:PAGINATION></td><td><img src="../Images/paginationRowEdgeR.gif" alt=""/></td>
+            </tr>
+            </table>
+            </td>
+            </tr><!--Table View Area -->
+            <tr>
+            <td class="tre">
+            <table cellspacing="0" cellpadding="0" border="0" width="100%" onkeydown="captureUpDownKey(this, event)">
+            <!-- This is the table's header row -->
+            <GEN:GROUP NAME="HaberlerHeaderRow">
+            <div id="AJAXUpdateHeaderRow">
+            <tr class="tch">
+            <th class="thc" colspan="1"><img src="../Images/space.gif" height="1" width="1" alt=""/></th><th class="thc" style="padding:0px;vertical-align:middle;"><GEN:SELECTION NAME="HaberlerToggleAll"></GEN:SELECTION></th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberBaslikLabel1"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberBaslikENLabel"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberOnYaziLabel"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberOnYaziENLabel"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberIcerikLabel"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberIcerikENLabel"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberAktifLabel"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="YetkiIDLabel"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="OlusturmaTarihiLabel1"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="DuzenlenmeTarihiLabel1"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="DuzenleyenIDLabel2"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="AktifPasifLabel1"></GEN:FIELDLABEL>
+            </th></tr>
+            </div>
+            </GEN:GROUP><!-- Table Rows -->
+            <GEN:ITEMTEMPLATE NAME="HaberlerRecordRow">
+            <div id="AJAXUpdateRecordRow">
+            <tr>
+                <td class="ticnb" scope="row"><GEN:IMAGEBUTTON NAME="HaberlerRowDeleteButton"></GEN:IMAGEBUTTON></td>
+                <td class="ticwb" onclick="moveToThisTableRow(this);"><GEN:SELECTION NAME="HaberlerRecordRowSelection" TYPE="Single" /></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="HaberBaslik"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="HaberBaslikEN"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="HaberOnYazi"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="HaberOnYaziEN"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="HaberIcerik"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="HaberIcerikEN"></GEN:FIELDVALUE></td>
+            <td class="ttc" ><GEN:FIELDVALUE NAME="HaberAktif"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="YetkiID"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="OlusturmaTarihi1"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="DuzenlenmeTarihi1"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="DuzenleyenID1"></GEN:FIELDVALUE><GEN:IMAGEBUTTON NAME="DuzenleyenID1AddRecordLink" /></td>
+            <td class="ttc" ><GEN:FIELDVALUE NAME="AktifPasif1"></GEN:FIELDVALUE></td>
+            </tr>
+            </div>
+            </GEN:ITEMTEMPLATE>
+            </table>
+        </td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+    </td>
+</tr>
+</table>
+<!-- End Table Panel.html -->
+</GEN:TABLE>
+    </td>
+    </tr>
+    </table>
+    </GEN:TABPANEL>
+    <GEN:TABPANEL NAME="HaberlerTabPanel1">
+    <table>
+    <tr>
+    <td>
+<GEN:TABLE NAME="HaberlerTableControl1">
+    <!-- Begin Table Panel.html -->
+<GEN:TEMPLATE DESCRIPTION="Table view to show or edit multiple records." TYPE="Edit Multiple Records" FILE="Data Entry\Add Record - Label on Side.xml"></GEN:TEMPLATE>
+    <table class="dv" cellpadding="0" cellspacing="0" border="0"><tr>
+    <td class="dhtrc">
+        <table id="CollapsibleRegionTotalRecords" style="display:none;" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td class="dhtrct"><GEN:LABEL NAME="HaberlerTotalItems1"></GEN:LABEL></td>
+        </tr>
+        </table>
+    </td>
+    </tr><tr>
+        <td class="dBody">
+        <table id="CollapsibleRegion" style="display:;" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td>
+        <table id="FilterRegion" cellpadding="0" cellspacing="3" border="0"></table>
+        <div class="spacer"></div>
+        <!-- Category Area -->
+        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+        <td>
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+            <td>
+            <table cellpadding="0" cellspacing="0" border="0"><tr>
+            <!-- Pagination Area -->
+            <td class="pr" colspan="100">
+            <table id="PaginationRegion" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+            <td><img src="../Images/paginationRowEdgeL.gif" alt=""/></td><GEN:GROUP NAME="HaberlerButtons1">
+            <td class="prbbc"><img src="../Images/ButtonBarEdgeL.gif" alt=""/></td><td class="prbbc"><img src="../Images/ButtonBarDividerL.gif" alt=""/></td>
+            <td class="prbbc"><GEN:ImageButton NAME="HaberlerAddButton1" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="HaberlerDeleteButton1" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="HaberlerResetButton1" /></td><td class="prbbc"><img src="../Images/ButtonBarDividerR.gif" alt=""/></td><td class="prbbc"><img src="../Images/ButtonBarEdgeR.gif" alt=""/></td>
+            </GEN:GROUP><td class="pra"><GEN:PAGINATION FILE="..\Shared\Pagination.html" NAME="HaberlerPagination1"></GEN:PAGINATION></td><td><img src="../Images/paginationRowEdgeR.gif" alt=""/></td>
+            </tr>
+            </table>
+            </td>
+            </tr><!--Table View Area -->
+            <tr>
+            <td class="tre">
+            <table cellspacing="0" cellpadding="0" border="0" width="100%" onkeydown="captureUpDownKey(this, event)">
+            <!-- This is the table's header row -->
+            <GEN:GROUP NAME="HaberlerHeaderRow1">
+            <div id="AJAXUpdateHeaderRow">
+            <tr class="tch">
+            <th class="thc" colspan="1"><img src="../Images/space.gif" height="1" width="1" alt=""/></th><th class="thc" style="padding:0px;vertical-align:middle;"><GEN:SELECTION NAME="HaberlerToggleAll1"></GEN:SELECTION></th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberBaslikLabel3"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberBaslikENLabel1"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberOnYaziLabel1"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberOnYaziENLabel1"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberIcerikLabel1"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberIcerikENLabel1"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HaberAktifLabel1"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="YetkiIDLabel1"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="OlusturmaTarihiLabel2"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="OlusturanIDLabel3"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="DuzenlenmeTarihiLabel2"></GEN:FIELDLABEL>
+            </th>
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="AktifPasifLabel2"></GEN:FIELDLABEL>
+            </th></tr>
+            </div>
+            </GEN:GROUP><!-- Table Rows -->
+            <GEN:ITEMTEMPLATE NAME="HaberlerRecordRow1">
+            <div id="AJAXUpdateRecordRow">
+            <tr>
+                <td class="ticnb" scope="row"><GEN:IMAGEBUTTON NAME="HaberlerRowDeleteButton1"></GEN:IMAGEBUTTON></td>
+                <td class="ticwb" onclick="moveToThisTableRow(this);"><GEN:SELECTION NAME="HaberlerRecordRowSelection1" TYPE="Single" /></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="HaberBaslik1"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="HaberBaslikEN1"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="HaberOnYazi1"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="HaberOnYaziEN1"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="HaberIcerik1"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="HaberIcerikEN1"></GEN:FIELDVALUE></td>
+            <td class="ttc" ><GEN:FIELDVALUE NAME="HaberAktif1"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="YetkiID1"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="OlusturmaTarihi2"></GEN:FIELDVALUE></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="OlusturanID2"></GEN:FIELDVALUE><GEN:IMAGEBUTTON NAME="OlusturanID2AddRecordLink" /></td>
+            <td class="ttc" style="white-space:nowrap;"><GEN:FIELDVALUE NAME="DuzenlenmeTarihi2"></GEN:FIELDVALUE></td>
+            <td class="ttc" ><GEN:FIELDVALUE NAME="AktifPasif2"></GEN:FIELDVALUE></td>
+            </tr>
+            </div>
+            </GEN:ITEMTEMPLATE>
+            </table>
+        </td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+    </td>
+</tr>
+</table>
+<!-- End Table Panel.html -->
+</GEN:TABLE>
+    </td>
+    </tr>
+    </table>
+    </GEN:TABPANEL></GEN:TABCONTAINER>
+                                    <GEN:GROUP NAME="PageButtons">
+                                    <table cellpadding="0" cellspacing="0" border="0" id="Table1">
+                                        <tr>
+                                        <td class="recordPanelButtonsAlignment">
+                                        <table cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                        <td><GEN:BUTTON FILE="../Shared/ThemeButton.html" NAME="OKButton"></GEN:BUTTON></td>
+                                        <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+                                        <td><GEN:BUTTON FILE="../Shared/ThemeButton.html" NAME="EditButton"></GEN:BUTTON></td>
+                                        <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+                                        <td><GEN:BUTTON FILE="../Shared/ThemeButton.html" NAME="SaveButton"></GEN:BUTTON></td>
+                                        <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+                                        <td><GEN:BUTTON FILE="../Shared/ThemeButton.html" NAME="SaveAndNewButton"></GEN:BUTTON></td>
+                                        <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+                                        <td><GEN:BUTTON FILE="../Shared/ThemeButton.html" NAME="CancelButton"></GEN:BUTTON></td>
+                                        <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+                                        </tr>
+                                        </table>
+                                        </td>
+                                        </tr>
+                                    </table>
+                                    </GEN:GROUP><div id="detailPopup" class="detailRolloverPopup" onmouseout="detailRolloverPopupClose();" onmouseover="clearTimeout(gPopupTimer);"></div>
+                        </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                </table>
+                </td>
+                <td class="pcR"></td>
+            </tr>
+            <tr>
+                <td class="pcBL"></td>
+                <td class="pcB">
+                <GEN:FOOTER FILE="..\Header and Footer\Footer.html" NAME="PageFooter"></GEN:FOOTER></td>
+                <td class="pcBR"></td>
+            </tr>
+            </table>
+            </td>
+            <td class="pbR"><img src="../Images/space.gif" alt=""/></td>
+            </tr>
+            <tr>
+            <td class="pbBL"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbB"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbBR"><img src="../Images/space.gif" alt=""/></td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        <asp:ValidationSummary id="ValidationSummary1" ShowMessageBox="true" ShowSummary="false" runat="server"></asp:ValidationSummary></form>
+    </body>
+</html>

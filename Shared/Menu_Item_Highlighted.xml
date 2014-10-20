@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ComponentDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ironspeed.com/designer">
+  <Generator>Iron Speed Designer</Generator>
+  <Version>4.1</Version>
+  <Self>
+    <Name>Menu_Item_Highlighted</Name>
+    <Type>Button</Type>
+    <GenerateDirectory>Shared</GenerateDirectory>
+    <Layout>Shared\Menu_Item_Highlighted.html</Layout>
+    <DisplayName>Menu_Item_Highlighted</DisplayName>
+    <Description>(Description)</Description>
+  </Self>
+  <ComposedOf>
+    <ContainedComponent>
+      <Name>Button</Name>
+      <Type>LinkButton</Type>
+      <PassthroughAttributes>
+        <Attribute>
+          <Name>CssClass</Name>
+          <Value>menu</Value>
+        </Attribute>
+      </PassthroughAttributes>
+    </ContainedComponent>
+  </ComposedOf>
+</ComponentDefinition>

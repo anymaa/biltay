@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ComponentDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ironspeed.com/designer">
+  <Generator>Iron Speed Designer</Generator>
+  <Version>4.0</Version>
+  <Self>
+    <Name>SetLanguagePage</Name>
+    <Type>Page</Type>
+    <GenerateDirectory>Language</GenerateDirectory>
+    <Layout>Language\SetLanguagePage.html</Layout>
+    <DisplayName>SetLanguagePage</DisplayName>
+    <Description />
+    <CheckSum>CUSTOMIZED</CheckSum>
+    <GenClassConstructorCode>
+      base.Load += new System.EventHandler(this.MyPage_Load);
+      this.Init +=new EventHandler(MyPage_Init);
+    </GenClassConstructorCode>
+    <GenClassCustomCode>
+    
+  
+    private void MyPage_Init(object sender, System.EventArgs e)
+    {
+     this.Button.Button.Click += new EventHandler(Custom_Button_Click);
+    }
+
+    private void MyPage_Load(object sender, System.EventArgs e)
+    {
+     string resourceDir = "bin";
+     string resourcePath = this.Request.PhysicalApplicationPath + resourceDir + "\\";
+     if (System.IO.Directory.Exists(resourcePath)) {
+       string[] resourceFiles = System.IO.Directory.GetFiles(resourcePath, "*.*.resx");
+       SortedList sortedLangList = new SortedList();
+       foreach (string resourceFile in resourceFiles) {
+         System.IO.FileInfo finfo = new System.IO.FileInfo(resourceFile);
+         string fileName = finfo.Name;
+         string splitBy = ".";
+         string[] namePieces = fileName.Split(splitBy.ToCharArray());
+         int length = namePieces.Length;
+         int index = length - 2;
+         string cultureName = namePieces[index];
+         System.Globalization.CultureInfo cultureInfo = new System.Globalization.CultureInfo(cultureName);
+         if (!(sortedLangList.ContainsKey(cultureInfo.DisplayName))) {
+           sortedLangList.Add(cultureInfo.DisplayName, cultureInfo.Name);
+         }
+       }
+       string val;
+       foreach (string key in sortedLangList.Keys) {
+         val = ((string)(sortedLangList[key]));
+         ListItem li = new ListItem(key, val);
+         if (!(this.LanguageBox.Items.Contains(li))) {
+           this.LanguageBox.Items.Add(li);
+           if (System.Threading.Thread.CurrentThread.CurrentUICulture.Name == val) {
+             li.Selected = true;
+           }
+         }
+       }
+     }
+    }
+
+    public void Custom_Button_Click(object sender, EventArgs e)
+    {
+     try {
+       System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(this.LanguageBox.SelectedItem.Value);
+       Session["AppCultureUI"] = this.LanguageBox.SelectedItem.Value;
+     } catch  {
+     }
+     string url = "../default.aspx";
+     this.Response.Redirect(url);
+    }
+    
+    
+
+</GenClassCustomCode>
+  </Self>
+  <ComposedOf>
+    <ContainedComponent>
+      <Name>MenuV</Name>
+      <Type>Menu</Type>
+      <Layout>..\Menu Panels\Menu.html</Layout>
+    </ContainedComponent>
+    <ContainedComponent>
+      <Name>PageFooter</Name>
+      <Type>Footer</Type>
+      <Layout>..\Header and Footer\Footer.html</Layout>
+    </ContainedComponent>
+    <ContainedComponent>
+      <Name>PageHeader</Name>
+      <Type>Header</Type>
+      <Layout>..\Header and Footer\Header.html</Layout>
+    </ContainedComponent>
+  </ComposedOf>
+</ComponentDefinition>

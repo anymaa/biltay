@@ -1,0 +1,28 @@
+/**********************************************************************
+ * Styles.css                                                         *
+ *                                                                    *
+ * This file is initially empty and you can add any additional styles *
+ * or modify any of the styles defined in BaseStyles.css              *
+ * This file will never be overwritten.                               *
+ *                                                                    *
+ * For example, if you want to override just the top padding for a    *
+ * menu, you can simply add the following lines:                      *
+ *                                                                    *
+ * .menus {                                                           *
+ * 	padding-top: 20px;                                            *
+ * 	}                                                             *
+ *                                                                    *
+ * This will keep all the other styles of the "menus" style as-is,    *
+ * but modify the top padding to be 20px.                             *
+ *                                                                    *
+ * You can also, add a new style by just specifying it.               *
+ *                                                                    *
+ * .menus {                                                           *
+ * 	padding-top: 20px;                                            *
+ * 	text-align: center;                                           *
+ * 	}                                                             *
+ * 	                                                              *
+ * In the above case, we added the text-align style.  This style was  *
+ * not specified in the original declaration of the menus style.      *
+ *                                                                    *
+ **********************************************************************/

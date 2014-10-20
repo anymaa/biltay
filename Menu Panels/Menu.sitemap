@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+Each siteMapNode tag represents a menu item in the menu control. 
+The tags are case-sensitive and should contain the following case-sensitive attributes:
+  title: Text to be displayed for the menu item. Surround any part of the title to be retrieved from a RESX file with {}.
+  eg. title="{Menu:Add} Categories".
+	
+  desciption: Tool tip for the menu item. Surround any part of the title to be retrieved from a RESX file with {}.
+  eg. description="{Menu:Add} Categories".
+
+  url: The url value may be an empty string or may contain a unique value. The value should be one of the following types:
+      Absolute url: a complete path of the web page you want to display. 
+      eg: http://www.ironspeed.com
+      Relative url: url relative to application root. 
+      eg: ~/Categories/ShowCategoriesTablePage.aspx.
+      
+  imageUrl: The URL of the image to be displayed for each menu item.
+  eg. imageUrl="~/Images/MenuTopLevel.gif"
+
+  roles: A list of comma separated role ids defined as part of application's security (use role names as role ids
+  for Microsoft Active Directory and Microsoft AzMan Role management). To specify standard Iron Speed Designer roles, use:
+        Everyone: For all users.
+        NOT_ANONYMOUS: For signed in users only.
+        ANONYMOUS: For users who are not signed in.
+        NO_ACCESS: For none of the users.
+  The user should belong to one of the listed roles in order for the menu item to be displayed.
+	
+  order: (Please do not modify this attribute.) Specifies the order in which the elements are displayed. Changing the value 
+  of this attribute will not affect the order of the menu items on the display. They are used whenever a new menu item is 
+  inserted into the sitemap file to locate the position where the new menu item should be added.
+  -->
+<siteMap>
+  <siteMapNode>
+    <siteMapNode title="Acik Ilanlar" description="Acik Ilanlar" url="~/AcikIlanlar/ShowAcikIlanlarTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Acik Ilanlar" description="{Menu:Show} Acik Ilanlar" url="~/AcikIlanlar/ShowAcikIlanlarTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Acik Ilanlar" description="{Menu:Add} Acik Ilanlar" url="~/AcikIlanlar/AddAcikIlanlarPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Etkinlikler" description="Etkinlikler" url="~/Etkinlikler/ShowEtkinliklerTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Etkinlikler" description="{Menu:Show} Etkinlikler" url="~/Etkinlikler/ShowEtkinliklerTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Etkinlikler" description="{Menu:Add} Etkinlikler" url="~/Etkinlikler/AddEtkinliklerPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Haberler" description="Haberler" url="~/Haberler/ShowHaberlerTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Haberler" description="{Menu:Show} Haberler" url="~/Haberler/ShowHaberlerTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Haberler" description="{Menu:Add} Haberler" url="~/Haberler/AddHaberlerPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Ihale" description="Ihale" url="~/Ihale/ShowIhaleTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Ihale" description="{Menu:Show} Ihale" url="~/Ihale/ShowIhaleTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Ihale" description="{Menu:Add} Ihale" url="~/Ihale/AddIhalePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Ihale Firma" description="Ihale Firma" url="~/IhaleFirma/ShowIhaleFirmaTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Ihale Firma" description="{Menu:Show} Ihale Firma" url="~/IhaleFirma/ShowIhaleFirmaTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Ihale Firma" description="{Menu:Add} Ihale Firma" url="~/IhaleFirma/AddIhaleFirmaPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Ihale Kategori" description="Ihale Kategori" url="~/IhaleKategori/ShowIhaleKategoriTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Ihale Kategori" description="{Menu:Show} Ihale Kategori" url="~/IhaleKategori/ShowIhaleKategoriTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Ihale Kategori" description="{Menu:Add} Ihale Kategori" url="~/IhaleKategori/AddIhaleKategoriPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Ihale Teklif" description="Ihale Teklif" url="~/IhaleTeklif/ShowIhaleTeklifTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Ihale Teklif" description="{Menu:Show} Ihale Teklif" url="~/IhaleTeklif/ShowIhaleTeklifTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Ihale Teklif" description="{Menu:Add} Ihale Teklif" url="~/IhaleTeklif/AddIhaleTeklifPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Ihale Turleri" description="Ihale Turleri" url="~/IhaleTurleri/ShowIhaleTurleriTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Ihale Turleri" description="{Menu:Show} Ihale Turleri" url="~/IhaleTurleri/ShowIhaleTurleriTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Ihale Turleri" description="{Menu:Add} Ihale Turleri" url="~/IhaleTurleri/AddIhaleTurleriPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="IK Kullanicilar" description="IK Kullanicilar" url="~/IKKullanicilar/ShowIKKullanicilarTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} IK Kullanicilar" description="{Menu:Show} IK Kullanicilar" url="~/IKKullanicilar/ShowIKKullanicilarTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} IK Kullanicilar" description="{Menu:Add} IK Kullanicilar" url="~/IKKullanicilar/AddIKKullanicilarPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="IK Kullanici Yetkiler" description="IK Kullanici Yetkiler" url="~/IKKullaniciYetkiler/ShowIKKullaniciYetkilerTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} IK Kullanici Yetkiler" description="{Menu:Show} IK Kullanici Yetkiler" url="~/IKKullaniciYetkiler/ShowIKKullaniciYetkilerTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} IK Kullanici Yetkiler" description="{Menu:Add} IK Kullanici Yetkiler" url="~/IKKullaniciYetkiler/AddIKKullaniciYetkilerPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="IK Unvanlar" description="IK Unvanlar" url="~/IKUnvanlar/ShowIKUnvanlarTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} IK Unvanlar" description="{Menu:Show} IK Unvanlar" url="~/IKUnvanlar/ShowIKUnvanlarTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} IK Unvanlar" description="{Menu:Add} IK Unvanlar" url="~/IKUnvanlar/AddIKUnvanlarPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="IK Yetkiler" description="IK Yetkiler" url="~/IKYetkiler/ShowIKYetkilerTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} IK Yetkiler" description="{Menu:Show} IK Yetkiler" url="~/IKYetkiler/ShowIKYetkilerTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} IK Yetkiler" description="{Menu:Add} IK Yetkiler" url="~/IKYetkiler/AddIKYetkilerPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Is Basvurulari" description="Is Basvurulari" url="~/IsBasvurulari/ShowIsBasvurulariTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Is Basvurulari" description="{Menu:Show} Is Basvurulari" url="~/IsBasvurulari/ShowIsBasvurulariTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Is Basvurulari" description="{Menu:Add} Is Basvurulari" url="~/IsBasvurulari/AddIsBasvurulariPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Katilimci Listesi" description="Katilimci Listesi" url="~/KatilimciListesi/ShowKatilimciListesiTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Katilimci Listesi" description="{Menu:Show} Katilimci Listesi" url="~/KatilimciListesi/ShowKatilimciListesiTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Katilimci Listesi" description="{Menu:Add} Katilimci Listesi" url="~/KatilimciListesi/AddKatilimciListesiPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="MIYSA Hesaplar" description="MIYSA Hesaplar" url="~/MIYSAHesaplar/ShowMIYSAHesaplarTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} MIYSA Hesaplar" description="{Menu:Show} MIYSA Hesaplar" url="~/MIYSAHesaplar/ShowMIYSAHesaplarTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} MIYSA Hesaplar" description="{Menu:Add} MIYSA Hesaplar" url="~/MIYSAHesaplar/AddMIYSAHesaplarPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Olcu Katsayisi Birimleri" description="Olcu Katsayisi Birimleri" url="~/OlcuKatsayisiBirimleri/ShowOlcuKatsayisiBirimleriTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Olcu Katsayisi Birimleri" description="{Menu:Show} Olcu Katsayisi Birimleri" url="~/OlcuKatsayisiBirimleri/ShowOlcuKatsayisiBirimleriTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Olcu Katsayisi Birimleri" description="{Menu:Add} Olcu Katsayisi Birimleri" url="~/OlcuKatsayisiBirimleri/AddOlcuKatsayisiBirimleriPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Para Birimleri" description="Para Birimleri" url="~/ParaBirimleri/ShowParaBirimleriTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Para Birimleri" description="{Menu:Show} Para Birimleri" url="~/ParaBirimleri/ShowParaBirimleriTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Para Birimleri" description="{Menu:Add} Para Birimleri" url="~/ParaBirimleri/AddParaBirimleriPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Faaliyet Alanlari" description="P Faaliyet Alanlari" url="~/PFaaliyetAlanlari/ShowPFaaliyetAlanlariTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Faaliyet Alanlari" description="{Menu:Show} P Faaliyet Alanlari" url="~/PFaaliyetAlanlari/ShowPFaaliyetAlanlariTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Faaliyet Alanlari" description="{Menu:Add} P Faaliyet Alanlari" url="~/PFaaliyetAlanlari/AddPFaaliyetAlanlariPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Firma Alinan Egitimler" description="P Firma Alinan Egitimler" url="~/PFirmaAlinanEgitimler/ShowPFirmaAlinanEgitimlerTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Firma Alinan Egitimler" description="{Menu:Show} P Firma Alinan Egitimler" url="~/PFirmaAlinanEgitimler/ShowPFirmaAlinanEgitimlerTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Firma Alinan Egitimler" description="{Menu:Add} P Firma Alinan Egitimler" url="~/PFirmaAlinanEgitimler/AddPFirmaAlinanEgitimlerPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Firma Kategori" description="P Firma Kategori" url="~/PFirmaKategori/ShowPFirmaKategoriTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Firma Kategori" description="{Menu:Show} P Firma Kategori" url="~/PFirmaKategori/ShowPFirmaKategoriTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Firma Kategori" description="{Menu:Add} P Firma Kategori" url="~/PFirmaKategori/AddPFirmaKategoriPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Firma Makina Listesi" description="P Firma Makina Listesi" url="~/PFirmaMakinaListesi/ShowPFirmaMakinaListesiTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Firma Makina Listesi" description="{Menu:Show} P Firma Makina Listesi" url="~/PFirmaMakinaListesi/ShowPFirmaMakinaListesiTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Firma Makina Listesi" description="{Menu:Add} P Firma Makina Listesi" url="~/PFirmaMakinaListesi/AddPFirmaMakinaListesiPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Firma Personel Alt Yapisi" description="P Firma Personel Alt Yapisi" url="~/PFirmaPersonelAltYapisi/ShowPFirmaPersonelAltYapisiTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Firma Personel Alt Yapisi" description="{Menu:Show} P Firma Personel Alt Yapisi" url="~/PFirmaPersonelAltYapisi/ShowPFirmaPersonelAltYapisiTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Firma Personel Alt Yapisi" description="{Menu:Add} P Firma Personel Alt Yapisi" url="~/PFirmaPersonelAltYapisi/AddPFirmaPersonelAltYapisiPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Firma Referanslar" description="P Firma Referanslar" url="~/PFirmaReferanslar/ShowPFirmaReferanslarTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Firma Referanslar" description="{Menu:Show} P Firma Referanslar" url="~/PFirmaReferanslar/ShowPFirmaReferanslarTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Firma Referanslar" description="{Menu:Add} P Firma Referanslar" url="~/PFirmaReferanslar/AddPFirmaReferanslarPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Firma Sertifikalari" description="P Firma Sertifikalari" url="~/PFirmaSertifikalari/ShowPFirmaSertifikalariTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Firma Sertifikalari" description="{Menu:Show} P Firma Sertifikalari" url="~/PFirmaSertifikalari/ShowPFirmaSertifikalariTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Firma Sertifikalari" description="{Menu:Add} P Firma Sertifikalari" url="~/PFirmaSertifikalari/AddPFirmaSertifikalariPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Firma Yetenekleri" description="P Firma Yetenekleri" url="~/PFirmaYetenekleri/ShowPFirmaYetenekleriTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Firma Yetenekleri" description="{Menu:Show} P Firma Yetenekleri" url="~/PFirmaYetenekleri/ShowPFirmaYetenekleriTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Firma Yetenekleri" description="{Menu:Add} P Firma Yetenekleri" url="~/PFirmaYetenekleri/AddPFirmaYetenekleriPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Hesap Turleri" description="P Hesap Turleri" url="~/PHesapTurleri/ShowPHesapTurleriTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Hesap Turleri" description="{Menu:Show} P Hesap Turleri" url="~/PHesapTurleri/ShowPHesapTurleriTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Hesap Turleri" description="{Menu:Add} P Hesap Turleri" url="~/PHesapTurleri/AddPHesapTurleriPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Ilceler" description="P Ilceler" url="~/PIlceler/ShowPIlcelerTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Ilceler" description="{Menu:Show} P Ilceler" url="~/PIlceler/ShowPIlcelerTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Ilceler" description="{Menu:Add} P Ilceler" url="~/PIlceler/AddPIlcelerPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Kategoriler" description="P Kategoriler" url="~/PKategoriler/ShowPKategorilerTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Kategoriler" description="{Menu:Show} P Kategoriler" url="~/PKategoriler/ShowPKategorilerTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Kategoriler" description="{Menu:Add} P Kategoriler" url="~/PKategoriler/AddPKategorilerPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Kurum" description="P Kurum" url="~/PKurum/ShowPKurumTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Kurum" description="{Menu:Show} P Kurum" url="~/PKurum/ShowPKurumTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Kurum" description="{Menu:Add} P Kurum" url="~/PKurum/AddPKurumPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Personel Tipleri" description="P Personel Tipleri" url="~/PPersonelTipleri/ShowPPersonelTipleriTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Personel Tipleri" description="{Menu:Show} P Personel Tipleri" url="~/PPersonelTipleri/ShowPPersonelTipleriTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Personel Tipleri" description="{Menu:Add} P Personel Tipleri" url="~/PPersonelTipleri/AddPPersonelTipleriPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Sehirler" description="P Sehirler" url="~/PSehirler/ShowPSehirlerTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Sehirler" description="{Menu:Show} P Sehirler" url="~/PSehirler/ShowPSehirlerTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Sehirler" description="{Menu:Add} P Sehirler" url="~/PSehirler/AddPSehirlerPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Sertifikalar" description="P Sertifikalar" url="~/PSertifikalar/ShowPSertifikalarTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Sertifikalar" description="{Menu:Show} P Sertifikalar" url="~/PSertifikalar/ShowPSertifikalarTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Sertifikalar" description="{Menu:Add} P Sertifikalar" url="~/PSertifikalar/AddPSertifikalarPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Ulkeler" description="P Ulkeler" url="~/PUlkeler/ShowPUlkelerTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Ulkeler" description="{Menu:Show} P Ulkeler" url="~/PUlkeler/ShowPUlkelerTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Ulkeler" description="{Menu:Add} P Ulkeler" url="~/PUlkeler/AddPUlkelerPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Yetenekler" description="P Yetenekler" url="~/PYetenekler/ShowPYeteneklerTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Yetenekler" description="{Menu:Show} P Yetenekler" url="~/PYetenekler/ShowPYeteneklerTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Yetenekler" description="{Menu:Add} P Yetenekler" url="~/PYetenekler/AddPYeteneklerPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Yetenek Turleri" description="P Yetenek Turleri" url="~/PYetenekTurleri/ShowPYetenekTurleriTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Yetenek Turleri" description="{Menu:Show} P Yetenek Turleri" url="~/PYetenekTurleri/ShowPYetenekTurleriTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Yetenek Turleri" description="{Menu:Add} P Yetenek Turleri" url="~/PYetenekTurleri/AddPYetenekTurleriPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="PY Kategoriler" description="PY Kategoriler" url="~/PYKategoriler/ShowPYKategorilerTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} PY Kategoriler" description="{Menu:Show} PY Kategoriler" url="~/PYKategoriler/ShowPYKategorilerTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} PY Kategoriler" description="{Menu:Add} PY Kategoriler" url="~/PYKategoriler/AddPYKategorilerPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="P Yonetim Kurulu" description="P Yonetim Kurulu" url="~/PYonetimKurulu/ShowPYonetimKuruluTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} P Yonetim Kurulu" description="{Menu:Show} P Yonetim Kurulu" url="~/PYonetimKurulu/ShowPYonetimKuruluTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} P Yonetim Kurulu" description="{Menu:Add} P Yonetim Kurulu" url="~/PYonetimKurulu/AddPYonetimKuruluPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="PY Proje Kategorileri" description="PY Proje Kategorileri" url="~/PYProjeKategorileri/ShowPYProjeKategorileriTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} PY Proje Kategorileri" description="{Menu:Show} PY Proje Kategorileri" url="~/PYProjeKategorileri/ShowPYProjeKategorileriTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} PY Proje Kategorileri" description="{Menu:Add} PY Proje Kategorileri" url="~/PYProjeKategorileri/AddPYProjeKategorileriPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="PY Projeler" description="PY Projeler" url="~/PYProjeler/ShowPYProjelerTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} PY Projeler" description="{Menu:Show} PY Projeler" url="~/PYProjeler/ShowPYProjelerTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} PY Projeler" description="{Menu:Add} PY Projeler" url="~/PYProjeler/AddPYProjelerPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Slider" description="Slider" url="~/Slider/ShowSliderTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Slider" description="{Menu:Show} Slider" url="~/Slider/ShowSliderTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Slider" description="{Menu:Add} Slider" url="~/Slider/AddSliderPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Sysdiagrams" description="Sysdiagrams" url="~/sysdiagrams/ShowSysdiagramsTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Sysdiagrams" description="{Menu:Show} Sysdiagrams" url="~/sysdiagrams/ShowSysdiagramsTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Sysdiagrams" description="{Menu:Add} Sysdiagrams" url="~/sysdiagrams/AddSysdiagramsPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Tedarikci Degerlendirme" description="Tedarikci Degerlendirme" url="~/TedarikciDegerlendirme/ShowTedarikciDegerlendirmeTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Tedarikci Degerlendirme" description="{Menu:Show} Tedarikci Degerlendirme" url="~/TedarikciDegerlendirme/ShowTedarikciDegerlendirmeTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Tedarikci Degerlendirme" description="{Menu:Add} Tedarikci Degerlendirme" url="~/TedarikciDegerlendirme/AddTedarikciDegerlendirmePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+    <siteMapNode title="Yayinlar" description="Yayinlar" url="~/Yayinlar/ShowYayinlarTablePage.aspx?" imageUrl="~/Images/MLMBullet1.gif" roles="" order="0">
+      <siteMapNode title="{Menu:Show} Yayinlar" description="{Menu:Show} Yayinlar" url="~/Yayinlar/ShowYayinlarTablePage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="10" />
+      <siteMapNode title="{Menu:Add} Yayinlar" description="{Menu:Add} Yayinlar" url="~/Yayinlar/AddYayinlarPage.aspx" imageUrl="~/Images/MLMBullet2.gif" roles="" order="100" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

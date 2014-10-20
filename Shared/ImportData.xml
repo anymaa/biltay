@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ComponentDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ironspeed.com/designer">
+  <Generator>Iron Speed Designer</Generator>
+  <Version>5.1</Version>
+  <Self>
+    <Name>ImportData</Name>
+    <Type>Page</Type>
+    <GenerateDirectory>Shared</GenerateDirectory>
+    <Layout>Shared\ImportData.html</Layout>
+    <DisplayName>ImportData</DisplayName>
+    <Description>This is a blank page.</Description>
+    <CheckSum>CUSTOMIZED</CheckSum>
+  </Self>
+  <ComposedOf>
+    <ContainedComponent>
+      <Name>FirstRowCheckBoxLabel</Name>
+      <Type>Label</Type>
+      <PassthroughAttributes>
+        <Attribute>
+          <Name>HtmlEncodeWhiteSpace</Name>
+          <Value>False</Value>
+        </Attribute>
+      </PassthroughAttributes>
+    </ContainedComponent>
+    <ContainedComponent>
+      <Name>Import</Name>
+      <Type>Html</Type>
+      <PassthroughAttributes>
+        <Attribute>
+          <Name>Text</Name>
+          <Value>Import:Import</Value>
+          <Type>ResourceReference</Type>
+        </Attribute>
+      </PassthroughAttributes>
+    </ContainedComponent>
+    <ContainedComponent>
+      <Name>ImportButton</Name>
+      <Type>Button</Type>
+      <Layout>..\Shared\ThemeButton.html</Layout>
+      <PassthroughAttributes>
+        <Attribute>
+          <Name>Button-Text</Name>
+          <Value>Import:Import</Value>
+          <Type>ResourceReference</Type>
+        </Attribute>
+        <Attribute>
+          <Name>Button-ToolTip</Name>
+          <Value>Import:Import</Value>
+          <Type>ResourceReference</Type>
+        </Attribute>
+      </PassthroughAttributes>
+    </ContainedComponent>
+    <ContainedComponent>
+      <Name>NextButton</Name>
+      <Type>Button</Type>
+      <Layout>..\Shared\ThemeButton.html</Layout>
+      <PassthroughAttributes>
+        <Attribute>
+          <Name>Button-Text</Name>
+          <Value>Import:Next</Value>
+          <Type>ResourceReference</Type>
+        </Attribute>
+        <Attribute>
+          <Name>Button-ToolTip</Name>
+          <Value>Import:Next</Value>
+          <Type>ResourceReference</Type>
+        </Attribute>
+      </PassthroughAttributes>
+    </ContainedComponent>
+    <ContainedComponent>
+      <Name>PreviousButton</Name>
+      <Type>Button</Type>
+      <Layout>..\Shared\ThemeButton.html</Layout>
+      <PassthroughAttributes>
+        <Attribute>
+          <Name>Button-Text</Name>
+          <Value>Import:Previous</Value>
+          <Type>ResourceReference</Type>
+        </Attribute>
+        <Attribute>
+          <Name>Button-ToolTip</Name>
+          <Value>Import:Previous</Value>
+          <Type>ResourceReference</Type>
+        </Attribute>
+      </PassthroughAttributes>
+    </ContainedComponent>
+  </ComposedOf>
+  <PageDefinition>&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PageDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Self&gt;
+    &lt;Name&gt;SecondPage&lt;/Name&gt;
+    &lt;Version&gt;5.1&lt;/Version&gt;
+    &lt;Generator&gt;Iron Speed Designer&lt;/Generator&gt;
+    &lt;Title&gt;Blank page&lt;/Title&gt;
+    &lt;Description&gt;This is a blank page.&lt;/Description&gt;
+    &lt;DisplayName&gt;SecondPage&lt;/DisplayName&gt;
+    &lt;GenerateDirectory&gt;Products&lt;/GenerateDirectory&gt;
+    &lt;Layout&gt;Products\SecondPage.html&lt;/Layout&gt;
+    &lt;Type&gt;Page&lt;/Type&gt;
+    &lt;PageLayoutName /&gt;
+  &lt;/Self&gt;
+  &lt;HasSkipNavigationLink&gt;false&lt;/HasSkipNavigationLink&gt;
+  &lt;HasMenu&gt;false&lt;/HasMenu&gt;
+  &lt;Menus&gt;
+    &lt;Menu&gt;
+      &lt;Name&gt;MenuV&lt;/Name&gt;
+      &lt;Layout&gt;..\Menu Panels\Menu.html&lt;/Layout&gt;
+      &lt;HiliteSettings /&gt;
+      &lt;Orientation&gt;VERTICAL&lt;/Orientation&gt;
+      &lt;ImageURL /&gt;
+      &lt;IsPresentInMenu&gt;false&lt;/IsPresentInMenu&gt;
+      &lt;DisplayName /&gt;
+      &lt;Type /&gt;
+      &lt;Tooltip /&gt;
+      &lt;Level&gt;1&lt;/Level&gt;
+    &lt;/Menu&gt;
+  &lt;/Menus&gt;
+  &lt;HasHeader&gt;false&lt;/HasHeader&gt;
+  &lt;Header&gt;
+    &lt;Name&gt;PageHeader&lt;/Name&gt;
+    &lt;Layout&gt;..\Header and Footer\Header.html&lt;/Layout&gt;
+  &lt;/Header&gt;
+  &lt;HasFooter&gt;false&lt;/HasFooter&gt;
+  &lt;Footer&gt;
+    &lt;Name&gt;PageFooter&lt;/Name&gt;
+    &lt;Layout&gt;..\Header and Footer\Footer.html&lt;/Layout&gt;
+  &lt;/Footer&gt;
+  &lt;HasRecordPanel&gt;false&lt;/HasRecordPanel&gt;
+&lt;/PageDefinition&gt;]]&gt;</PageDefinition>
+</ComponentDefinition>

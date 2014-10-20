@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+    <title><GEN:Literal NAME="PageTitle"/></title>
+    <link rel="stylesheet" rev="stylesheet" type="text/css" href="../Styles/BaseStyles.css"/>
+    </head>
+    <body id="Body1" runat="server" class="pBack">
+    <form id="Form1" method="post" runat="server"><BaseClasses:ScrollCoordinates id="ScrollCoordinates" runat="server"></BaseClasses:ScrollCoordinates>
+        <BaseClasses:BasePageSettings id="PageSettings" runat="server"></BaseClasses:BasePageSettings>
+        <GEN:TEMPLATE DESCRIPTION="A page containing a header, menu and footer." TYPE="Page" FILE="Pages/Page with Header and Menu.html"></GEN:TEMPLATE>
+        <table cellspacing="0" cellpadding="0" border="0" height="100%" width="100%">
+        <tr>
+        <td class="pAlign">
+        <table cellspacing="0" cellpadding="0" border="0" class="pbTable">
+            <tr>
+            <td class="pbTL"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbT"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbTR"><img src="../Images/space.gif" alt=""/></td>
+            </tr>
+            <tr>
+            <td class="pbL"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbC">
+            <table cellspacing="0" cellpadding="0" border="0" class="pcTable">
+            <tr>
+                <td class="pcT" colspan="2">
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                <td>
+                </td>
+            </tr>
+            </table>
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+            <td><GEN:HEADER FILE="..\Header and Footer\Header.html" NAME="PageHeader"></GEN:HEADER></td>
+            </tr>
+            </table>
+            </td>
+            <td class="pcTR"></td>
+            </tr>
+            <tr>
+                <td class="pcL">
+                    <GEN:MENU FILE="..\Menu Panels\Menu.html" NAME="MenuV"></GEN:MENU></td>
+                <td class="pcC">
+                <table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+                <tr>
+                <td>
+                    <GEN:MENU FILE="../Menu Panels/HorizontalMenu.html" NAME="Menu"></GEN:MENU></td>
+                </tr>
+                <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                        <td class="pContent">
+                            <a name="StartOfPageContent"></a>
+<GEN:RECORD NAME="SysdiagramsRecordControl">
+<!-- Begin Record Panel.html -->
+<GEN:TEMPLATE DESCRIPTION="Standard record panel." TYPE="Show One Record" FILE="Data Display\Show Record - Label on Side.xml"></GEN:TEMPLATE>
+ <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("SaveButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("CancelButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("OKButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("SaveNNewButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("EditButton$_Button")) %>
+
+    <table class="dv" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td class="dh">
+    <table cellpadding="0" cellspacing="0" width="100%" border="0">
+    <tr>
+    <td class="dhel"><img src="../Images/space.gif" alt=""/></td><td class="dhb">
+    <table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td class="dhtr" valign="middle"><GEN:HTML NAME="SysdiagramsTitle"></GEN:HTML></td>
+    </tr>
+    </table>
+    </td>
+    <td class="dher"><img src="../Images/space.gif" alt=""/></td>
+    </tr>
+    </table>
+    </td>
+    </tr><tr>
+        <td>
+        <table class="dBody" id="CollapsibleRegion" style="display:;" cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+        <td>
+        <table id="FilterRegion" cellpadding="0" cellspacing="3" border="0"></table>
+    <div class="spacer"></div></td>
+    </tr>
+    <tr><td>
+    <table cellpadding="0" cellspacing="3" border="0">
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="nameLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="name"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="principal_idLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="principal_id"></GEN:FIELDVALUE></td>
+            </tr>
+            <tr>
+            <td class="fls"><GEN:FIELDLABEL NAME="versionLabel"></GEN:FIELDLABEL></td>
+            <td class="dfv"><GEN:FIELDVALUE NAME="version"></GEN:FIELDVALUE></td>
+            </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+<%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("OKButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("CancelButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("SaveButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("SaveNNewButton$_Button")) %>
+ <%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("EditButton$_Button")) %>
+ <!-- End Record Panel.html -->
+ </GEN:RECORD>
+                                    <GEN:GROUP NAME="PageButtons">
+                                    <table cellpadding="0" cellspacing="0" border="0" id="Table1">
+                                        <tr>
+                                        <td class="recordPanelButtonsAlignment">
+                                        <table cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                        <td><GEN:BUTTON FILE="../Shared/ThemeButton.html" NAME="OKButton"></GEN:BUTTON></td>
+                                        <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+                                        <td><GEN:BUTTON FILE="../Shared/ThemeButton.html" NAME="EditButton"></GEN:BUTTON></td>
+                                        <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+                                        <td><GEN:BUTTON FILE="../Shared/ThemeButton.html" NAME="SaveButton"></GEN:BUTTON></td>
+                                        <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+                                        <td><GEN:BUTTON FILE="../Shared/ThemeButton.html" NAME="SaveAndNewButton"></GEN:BUTTON></td>
+                                        <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+                                        <td><GEN:BUTTON FILE="../Shared/ThemeButton.html" NAME="CancelButton"></GEN:BUTTON></td>
+                                        <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+                                        </tr>
+                                        </table>
+                                        </td>
+                                        </tr>
+                                    </table>
+                                    </GEN:GROUP><div id="detailPopup" class="detailRolloverPopup" onmouseout="detailRolloverPopupClose();" onmouseover="clearTimeout(gPopupTimer);"></div>
+                        </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                </table>
+                </td>
+                <td class="pcR"></td>
+            </tr>
+            <tr>
+                <td class="pcBL"></td>
+                <td class="pcB">
+                <GEN:FOOTER FILE="..\Header and Footer\Footer.html" NAME="PageFooter"></GEN:FOOTER></td>
+                <td class="pcBR"></td>
+            </tr>
+            </table>
+            </td>
+            <td class="pbR"><img src="../Images/space.gif" alt=""/></td>
+            </tr>
+            <tr>
+            <td class="pbBL"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbB"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbBR"><img src="../Images/space.gif" alt=""/></td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        <asp:ValidationSummary id="ValidationSummary1" ShowMessageBox="true" ShowSummary="false" runat="server"></asp:ValidationSummary></form>
+    </body>
+</html>

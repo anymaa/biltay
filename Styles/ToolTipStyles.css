@@ -1,0 +1,85 @@
+.cToolTipClearFlow {
+    clear:both;
+    width:0;
+    height:0;
+    overflow:hidden;
+    font-size:1pt;
+}
+.cToolTipContainer {
+    width:300px;
+    z-index:100;
+    font-family:Tahoma;
+    font-size:12pt;
+    border-style: ridge;
+    border-color:Black;
+    border-width:3px;
+    padding:5px,5px,5px,5px
+  
+}
+.cToolTipTopLeftCorner {
+    background: url(TopLeft.png) no-repeat left top;
+    height:7px;
+    width:7px; 
+    overflow:hidden; 
+    float:left;    
+}
+.cToolTipTopSide {
+    background: #eff5d7 url(dot.gif) repeat-x left top;
+    height:7px;
+    overflow:hidden;
+    width:286px;
+    float:left;
+}
+.cToolTipTopRightCorner {
+    background: url(TopRight.png) no-repeat left top;
+    height:7px;
+    width:7px;
+    overflow:hidden;
+    float:left;
+}
+.cToolTipLeftSide {
+    background: #eff5d7 url(dot.gif) repeat-y left;
+    /*width:296px;*/
+    overflow:hidden;
+}
+.cToolTipRightSide {
+    background: url(dot.gif) repeat-y right;
+    /*width:297px;*/
+    overflow:hidden;
+}
+.cToolTipBottomLeftCorner {
+    background: url(BottomLeft.png) no-repeat;
+    height:7px;
+    width:7px; 
+    overflow:hidden; 
+    float:left;
+}
+.cToolTipBottomSide {
+    background: #e4eac8 url(dot.gif) repeat-x bottom;
+    height:7px;
+    overflow:hidden;
+    /*width:286px; */
+    float:left;
+}
+.cToolTipBottomSideSizeFixer {
+    width:0px;
+    height:7px;
+    overflow:hidden;
+}
+.cToolTipBottomRightCorner {
+    background: url(BottomRight.png) no-repeat;
+    height:7px;
+    width:7px;
+    overflow:hidden;
+    float:left;
+}
+.cToolTipFooter {
+    background-color: #e4eac8 !important;
+    border-bottom-style:dotted;
+    border-bottom-width:2px;
+}
+.cToolTipSeparatingStrip {
+    background: #d7ddc1;
+    overflow:hidden;
+    height:1px;
+}

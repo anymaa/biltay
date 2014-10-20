@@ -1,0 +1,32 @@
+
+.description_node, td {
+	font-family: Verdana, Geneva, ms sans serif;
+	text-align: left;
+	vertical-align: center;
+	font-size: 11px;
+	}
+
+.heading_node {
+	font-family: Verdana, Geneva, ms sans serif;
+	text-align: center;
+	vertical-align: center;
+	font-size: 11px;
+	}
+
+.page_heading {
+	font-family: Verdana, Geneva, ms sans serif;
+	text-align: left;
+	vertical-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	}
+
+li {
+	padding-top: 16px;
+	}
+	
+body {
+	margin-left: 20px;
+	margin-top: 20px;
+	}
+

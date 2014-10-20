@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Language" xml:space="preserve">
+    <value>tr-TR</value>
+  </data>
+  <data name="Translator:Name" xml:space="preserve">
+    <value>Sosyale Özdemir</value>
+  </data>
+  <data name="Translator:Company" xml:space="preserve">
+    <value>Programmiererei Nicol GmbH, www.programmiererei.de</value>
+  </data>
+  <data name="Err:InvalidColumnValue" xml:space="preserve">
+    <value>"{Column}" sütunu için geçersiz deĝer.</value>
+  </data>
+  <data name="Err:RecordMissingColumn" xml:space="preserve">
+    <value>Seçilen kaydın "{Column}" adında sütunu yok.</value>
+  </data>
+  <data name="Err:RecordMissingFK" xml:space="preserve">
+    <value>Seçilen kaydın "{Key}" adında yabancı anahtarı yok.</value>
+  </data>
+  <data name="Err:RecordMissingPK" xml:space="preserve">
+    <value>Seçilen kaydın birinci anahtarı yok.</value>
+  </data>
+  <data name="Err:MissingConnectionString" xml:space="preserve">
+    <value>"{ConnectionName}" için baĝlantı dizesi bulunmadı.</value>
+  </data>
+  <data name="Err:MustBePositive" xml:space="preserve">
+    <value>The {Parameter} parameter must be greater than 0. The current value is {Value}.</value>
+  </data>
+  <data name="Err:MustBeNonNegative" xml:space="preserve">
+    <value>The {Parameter} parameter must be greater than or equal to 0. The current value is {Value}.</value>
+  </data>
+  <data name="ListItemNoSelectionText" xml:space="preserve">
+    <value>** Lütfen seçiniz. **</value>
+  </data>
+  <data name="ListItemNoSelectionText_RadioButtonList" xml:space="preserve">
+    <value>Seçme yapılmamış.</value>
+  </data>
+  <data name="CategoryFilterInitialText" xml:space="preserve">
+    <value>Tüm</value>
+  </data>
+  <data name="Warn:NoRecordSelected" xml:space="preserve">
+    <value>Lütfen önce bir kayıt seçiniz.</value>
+  </data>
+  <data name="Warn:MissingUrlParam_Int" xml:space="preserve">
+    <value>Lütfen URL-Parametresi {ParamName} için tamsayı seçiniz.</value>
+  </data>
+  <data name="Warn:MissingUrlParam_Num" xml:space="preserve">
+    <value>Lütfen URL-Parametresi {ParamName} için sayısal deĝer veriniz.</value>
+  </data>
+  <data name="Warn:MissingUrlParam" xml:space="preserve">
+    <value>Lütfen URL-Parametresi {ParamName} için deĝer veriniz.</value>
+  </data>
+  <data name="MaskedPasswordText" xml:space="preserve">
+    <value>******</value>
+  </data>
+  <data name="Err:TableDoesNotAllowNewRecords" xml:space="preserve">
+    <value>"{Table}" için yeni kayıt eklenilmez.</value>
+  </data>
+  <data name="Err:TableDoesNotAllowRecordDeletion" xml:space="preserve">
+    <value>"{Table}" için kayıtlar silinmez.</value>
+  </data>
+  <data name="Err:TableDoesNotAllowRecordUpdate" xml:space="preserve">
+    <value>"{Table}" güncelleştirilmez.</value>
+  </data>
+  <data name="Err:InvalidValueForFormattedFvc" xml:space="preserve">
+    <value>"{ValueString}" "{ValueFormat}" ile biçimlendirilemedi.</value>
+  </data>
+  <data name="Err:InvalidEnumValueString" xml:space="preserve">
+    <value>Dize {Type} türünden bir deĝer dönüştürülemedi.</value>
+  </data>
+  <data name="ContactDbAdministrator" xml:space="preserve">
+    <value>Lütfen veritabanı yöneticisine başvurunuz.</value>
+  </data>
+  <data name="Err:DbConstraintViolated" xml:space="preserve">
+    <value>Veri kısıtlamalar ile ihlâl ediyor.</value>
+  </data>
+  <data name="Err:DbConstraintViolated_Custom" xml:space="preserve">
+    <value>Veri kısıtlamalar ile ihlâl ediyor.</value>
+  </data>
+  <data name="Err:DbConstraintViolated_PK" xml:space="preserve">
+    <value>Deĝiştirmek istediĝiniz kaydın birinci anahtarı, varolan bir kaydın birinci anahtarı ile ihlâl ediyor.</value>
+  </data>
+  <data name="Err:DbConstraintViolated_Unique" xml:space="preserve">
+    <value>Veri varolan kaydın benzersiz veri ile ihlâl ediyor.</value>
+  </data>
+  <data name="Err:DbConstraintViolated_FK" xml:space="preserve">
+    <value>Deĝiştirmek istediĝiniz kayıt varolmayan bir kaydın birinci anahtarını içeriyor.</value>
+  </data>
+  <data name="Err:DbConstraintViolated_PKInUse" xml:space="preserve">
+    <value>Silmek veya deĝiştirmek istediĝiniz kayıt başka kayıtlardan başvuruluyor.</value>
+  </data>
+  <data name="Err:InvalidDbOperation_ImplicitConversion" xml:space="preserve">
+    <value>Veri veritabanı şeması ile ihlâl ediyor.</value>
+  </data>
+  <data name="Err:InvalidDbOperation_ImplicitTruncation" xml:space="preserve">
+    <value>Veri veritabanı şemasi ile ihlâl ediyor.</value>
+  </data>
+  <data name="Err:DbConstraintViolated_Null" xml:space="preserve">
+    <value>Gerekilen alanlar için deĝer giriniz.</value>
+  </data>
+  <data name="Err:DbConcurrency" xml:space="preserve">
+    <value>Başka bir kullanıcı aynı kayıtları güncelleştirdi.</value>
+  </data>
+  <data name="Err:DbConcurrency_Table" xml:space="preserve">
+    <value>Başka bir kullanıcı deĝiştirdiĝi için, kaydı güncelleştiremezsiniz.</value>
+  </data>
+  <data name="Err:DbConcurrency_RecordDeleted" xml:space="preserve">
+    <value>Başka bir kullanıcı sildiĝi için, kaydı güncelleştiremezsiniz.</value>
+  </data>
+  <data name="Err:DbConcurrency_RecordDeleted_Table" xml:space="preserve">
+    <value>Başka bir kullanıcı sildiĝi için, kaydı güncelleştiremezsiniz.</value>
+  </data>
+  <data name="Err:InvalidRecordId" xml:space="preserve">
+    <value>"{ID}" kimliğinde kayıt alınamadı.</value>
+  </data>
+  <data name="Err:UiConcurrency" xml:space="preserve">
+    <value>Başka bir kullanıcı deĝiştirdiĝi için,kaydı güncelleştiremezsiniz.</value>
+  </data>
+  <data name="Err:UiConcurrency_RecordDeleted" xml:space="preserve">
+    <value>Başka bir kullanıcı sildiĝi için, kaydı güncelleştiremezsiniz.</value>
+  </data>
+  <data name="Err:UiUpdate_InvalidRecordData" xml:space="preserve">
+    <value>Kayıt güncelleştirilemez. Kaydın verisi geçersiz.</value>
+  </data>
+  <data name="Err:UiUpdate_ContainerFK" xml:space="preserve">
+    <value>Kaydın kabının yabancı anahtarı güncelleştirilemedi.</value>
+  </data>
+  <data name="Err:InvalidRecordFK_WrongTable" xml:space="preserve">
+    <value>Anahtar ve kayıt farklı tablolara ait.</value>
+  </data>
+  <data name="Err:InvalidFKValue" xml:space="preserve">
+    <value>Yabancı anahtarı "{Key}" için geçersiz deĝer.</value>
+  </data>
+  <data name="Err:InvalidRecordExpression" xml:space="preserve">
+    <value>"{Expression}" deyimi yürütülemedi.</value>
+  </data>
+  <data name="Err:MustBeNumeric" xml:space="preserve">
+    <value>Sayısal olmalı.</value>
+  </data>
+  <data name="Err:MustBeNumeric_Int" xml:space="preserve">
+    <value>Tamsayı olmalı.</value>
+  </data>
+  <data name="Err:MustBeTrue" xml:space="preserve">
+    <value>Doĝru olmalı.</value>
+  </data>
+  <data name="Err:MustBeFalse" xml:space="preserve">
+    <value>Yanlış olmalı.</value>
+  </data>
+  <data name="Err:DeleteRecord" xml:space="preserve">
+    <value>Unable to delete record: {ID}</value>
+  </data>
+  <data name="Err:GetRecord" xml:space="preserve">
+    <value>Unable to get record: {ID}</value>
+  </data>
+  <data name="Err:GetNonUniqueRecord" xml:space="preserve">
+    <value>Unable to get record: {ID}.  The record ID is not unique.</value>
+  </data>
+  <data name="Err:ExportRecords" xml:space="preserve">
+    <value>Unable to Export records.</value>
+  </data>
+  <data name="Err:GetRecords" xml:space="preserve">
+    <value>Unable to get records. </value>
+  </data>
+  <data name="Err:CreateRecord" xml:space="preserve">
+    <value>Unable to create record. </value>
+  </data>
+  <data name="Err:UpdateFailed" xml:space="preserve">
+    <value>Unable to update record. </value>
+  </data>
+  <data name="Err:UpdateRecord" xml:space="preserve">
+    <value>Unable to update record: {ID}</value>
+  </data>
+  <data name="Err:GetColumnValues" xml:space="preserve">
+    <value>Unable to get column values. </value>
+  </data>
+  <data name="Err:GetStatistics" xml:space="preserve">
+    <value>Unable to get table statistics. </value>
+  </data>
+  <data name="Err:DeleteFailed" xml:space="preserve">
+    <value>Unable to delete record. </value>
+  </data>
+  <data name="Err:DeleteRecords" xml:space="preserve">
+    <value>Unable to delete records. </value>
+  </data>
+  <data name="Err:AccessData" xml:space="preserve">
+    <value>Unable to access data.</value>
+  </data>
+  <data name="ContactSystemAdministrator" xml:space="preserve">
+    <value>Please contact your system administrator or customer support.</value>
+  </data>
+  <data name="Err:ButtonError" xml:space="preserve">
+    <value>The {BUTTON} button caused an error:{NEWLINE}{DETAILS}"</value>
+  </data>
+  <data name="Err:ValidNonDecimal" xml:space="preserve">
+    <value>{ColumnName}  must be a valid non-decimal number.</value>
+  </data>
+  <data name="Err:ValidDate" xml:space="preserve">
+    <value>{ColumnName} must be a valid date.</value>
+  </data>
+  <data name="Err:ValidMonetary" xml:space="preserve">
+    <value>{ColumnName}  must be a valid monetary value.</value>
+  </data>
+  <data name="Err:ValidEmailAddress" xml:space="preserve">
+    <value>{ColumnName} must be a valid email address.</value>
+  </data>
+  <data name="Err:ValidCreditCard" xml:space="preserve">
+    <value>{ColumnName} must be a valid credit card number.</value>
+  </data>
+  <data name="Err:ValidCreditCardDate" xml:space="preserve">
+    <value>{ColumnName} must be a valid credit card expiration date.</value>
+  </data>
+  <data name="Err:ValidUrl" xml:space="preserve">
+    <value>{ColumnName} must be a valid URL.</value>
+  </data>
+  <data name="Err:ValidZipCode" xml:space="preserve">
+    <value>{ColumnName} must be a valid ZIP Code.</value>
+  </data>
+  <data name="Err:ValidPercentage" xml:space="preserve">
+    <value>{ColumnName} must be a valid percentage.</value>
+  </data>
+  <data name="Err:ValidMinLength" xml:space="preserve">
+    <value>{ColumnName} must contain at least {MinLength} characters.</value>
+  </data>
+  <data name="Err:ValidFileName" xml:space="preserve">
+    <value>{ColumnName} must be a valid file name.</value>
+  </data>
+  <data name="Val:InvalidValue" xml:space="preserve">
+    <value>{FieldName} geçersiz. Bunun farklı nedenleri olabilir. Giriş cok uzun olabilir, geçersiz karakterler içerebilir veya deĝer geçersiz aralıkta bulunabilir.</value>
+  </data>
+  <data name="Err:PKColumnsAssignment" xml:space="preserve">
+    <value>Error occured while assigning primary key columns to DataTable.</value>
+  </data>
+  <data name="Err:InvalidColumnValueSize" xml:space="preserve">
+    <value>The content you entered has exceeded the space permitted for the "{Column}" database field, {CharNumber} characters.</value>
+  </data>
+  <data name="ValidationSummaryHeaderText" xml:space="preserve">
+    <value>Please correct the following errors:</value>
+  </data>
+</root>

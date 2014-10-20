@@ -1,0 +1,25 @@
+<table cellspacing="0" cellpadding="0" border="0">
+ <tr>
+	<td><img src="../Images/space.gif" width="10" height="1" alt=""/></td>
+	<td><img src="../Images/ButtonBarEdgeL.gif"></td>
+	<td><img src="../Images/ButtonBarDivider.gif"></td>
+	<td><GEN:ImageButton Name="FirstPage"/></td>
+	<td><img src="../Images/ButtonBarDivider.gif"></td>
+	<td><GEN:ImageButton Name="PreviousPage"/></td>
+	<td><img src="../Images/ButtonBarDivider.gif"></td>
+	<td class="prbg"><b><%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("_PageSizeButton")) %><GEN:TextBox Name="CurrentPage" /><%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("_PageSizeButton")) %></b></td>
+	<td class="prbg"><GEN:Text name="OfText"/> <b><GEN:Label Name="TotalPages" /></b></td>
+	<td><img src="../Images/ButtonBarDivider.gif"></td>
+	<td><GEN:ImageButton Name="NextPage"/></td>
+	<td><img src="../Images/ButtonBarDivider.gif"></td>
+	<td><GEN:ImageButton Name="LastPage"/></td>
+	<td><img src="../Images/ButtonBarPageItemDivider.gif"></td>
+	<td class="prbg"><b><GEN:Label Name="TotalItems" /></b>&nbsp;<GEN:Text Name="Items" /></td>
+	<td><img src="../Images/ButtonBarDivider.gif"></td>
+	<td class="prbg"><%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("_PageSizeButton")) %><GEN:TextBox Name="PageSize" /><%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("_PageSizeButton")) %></td>
+	<td class="prbg">/<GEN:Text name="PageText"/></td>
+	<td><img src="../Images/ButtonBarDivider.gif"></td>
+	<td class="prbg"><GEN:LINKBUTTON NAME="PageSizeButton"></GEN:LINKBUTTON></td>
+	<td><img src="../Images/ButtonBarEdgeR.gif"></td>
+ </tr>
+</table>

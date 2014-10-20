@@ -1,0 +1,29 @@
+﻿#Begin CompileApplication.rsp
+#/noconfig                            #don't use the csc.rsp file
+
+/nologo 
+#/utf8output
+#/verbose
+
+/optimize+
+
+/target:library 
+
+/lib:.\bin\
+/reference:BaseClasses.dll,System.dll,System.Data.dll,System.Drawing.dll,System.Web.dll,System.Xml.dll 
+
+#/debug
+#/nowarn 
+#/quiet 
+#/checked
+#/warnaserror
+
+/define:DEBUG=1,TRACE=1
+
+/incremental+
+
+#/doc:\bin\KumePortali.xml /incremental-
+#/nostdlib
+#/unsafe
+
+#End CompileApplication.rsp
